@@ -1,6 +1,6 @@
 ////////////////////////////////Youtube-Clone//////////////////////////////////////
 const videocardcontainer =document.querySelector('.video-container');
-let api_key="AIzaSyBn3bdsk_WB-rNcZ9z9Ll1-TNkpwrYwZZ4";
+let api_key="AIzaSyDy0ND8gHMorn9H0F7vzWfukqBMV42uBwA";
 let video_http=" https://www.googleapis.com/youtube/v3/videos?";
 let Channel_http="https://www.googleapis.com/youtube/v3/channels?";
 
@@ -57,4 +57,5 @@ searchBtn.addEventListener('click', () => {
     if(searchInput.value.length){
         location.href = searchLink + searchInput.value;
     }
+
 })
